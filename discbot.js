@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const { Client, Intents, Collection } = require('discord.js');
 const token = 'Insert_Token';
-
+const uri = "mongodb+srv://loganlan2001:PickyPickyPomPom@cluster0.u6edzrv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 //Client instance with necessary intents
 const fs = require('fs');
 const path = require('path');
@@ -76,5 +76,5 @@ function saveVoiceData() {
 
 
 
-// Log in to Discord with your app's token
+
 client.login(token);
